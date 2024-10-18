@@ -80,3 +80,36 @@
 // let d = Symbol(357);
 // console.log(typeof d);
 
+
+
+const student = {
+    fullName: 'Muhamad Raza',
+    age: 19,
+    class: 10,
+    isPass: true
+};
+console.log(student);
+console.log(student.age);
+console.log(typeof student);
+
+const product = {
+    title: 'Pen',
+    reting: 7,
+    offer: false,
+    price: 130
+}
+console.log(product);
+console.log(product.price);
+console.log(typeof product);
+
+const profile = {
+    userName: '@Muhammad Raza',
+    isFollow: true,
+    posts: 47,
+    followers: 62,
+    following: 9,
+    bio: 'I am Muhammad Raza'
+}
+console.log(profile);
+console.log(profile.bio);
+console.log(typeof profile);
