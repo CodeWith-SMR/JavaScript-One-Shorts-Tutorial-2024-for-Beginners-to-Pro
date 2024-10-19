@@ -109,12 +109,19 @@ console.log(`!(i<j) ${!(i<j)}`);
 // }
 
 
-
 let mode = prompt("chos a ModeColor")
 if (mode === 'Dark') {
     console.log("Black")
 }  else if (mode === 'Light') {
     console.log("White")
 } else {
-    console.log() 
+    console.log("tryagain") 
 }
+
+
+// Conditional (ternary) operator
+condition ? exprIfTrue : exprIfFalse
+
+const age = 26;
+const beverage = age >= 21 ? "Beer" : "Juice";
+console.log(beverage); // "Beer"
